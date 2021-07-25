@@ -5,13 +5,19 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-		"smarthon-iotbit" : "github:SMARTHON/pxt-iot-bit",
-		"neopixel": "github:microsoft/pxt-neopixel#v0.6.12"
+        "smarthon-iotbit": "github:SMARTHON/pxt-iot-bit",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.12"
     },
     "files": [
         "README.md",
         "ns.ts",
-        "smartcity.ts"
+        "smartcity.ts",
+        "_locales/zh/smarthon-smartcity-kit-jsdoc-strings.json",
+        "_locales/zh/smarthon-smartcity-kit-strings.json",
+        "_locales/zh-CN/smarthon-smartcity-kit-jsdoc-strings.json",
+        "_locales/zh-CN/smarthon-smartcity-kit-strings.json",
+        "_locales/zh-TW/smarthon-smartcity-kit-jsdoc-strings.json",
+        "_locales/zh-TW/smarthon-smartcity-kit-strings.json"
     ],
     "testFiles": [
         "tests.ts"
